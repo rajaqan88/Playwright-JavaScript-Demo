@@ -8,7 +8,7 @@ test('Test Google Application', async({page})=>{
 
     const ur = await page.url()
 
-    console.log("Current URL ->"+ ur)
+    console.log("Current URL ->"+ ur)  // Nagaraju added 2026
 
     console.log("Current URL ->"+ ur)
 
