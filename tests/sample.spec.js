@@ -10,6 +10,8 @@ test('Test Google Application', async({page})=>{
 
     console.log("Current URL ->"+ ur)
 
+    console.log("Current URL ->"+ ur)
+
     expect(ur).toContain(ur)
 
     const title = await page.title
